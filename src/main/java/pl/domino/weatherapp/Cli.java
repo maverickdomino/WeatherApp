@@ -2,6 +2,8 @@ package pl.domino.weatherapp;
 
 public class Cli {
 	public static void main(String args[]) {
-		System.out.println("It works!");	
+		String city = "Krakow";
+		Double temp = 13.5;
+		System.out.printf("Weather in %s: Temp: %s\n",city,temp);	
 	}
 }
